@@ -1,0 +1,19 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -f dist/bundle.js && yarn --cwd ../lib/ build && yarn add ../lib && webpack --mode production"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.2.8",
+    "tsc": "^2.0.4",
+    "typescript": "^4.6.3",
+    "webpack": "^5.71.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "canvas-lib": "../lib"
+  }
+}

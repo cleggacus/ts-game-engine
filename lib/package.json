@@ -1,0 +1,19 @@
+{
+  "name": "canvas-lib",
+  "version": "1.0.0",
+  "author": "cleggacus",
+  "license": "MIT",
+  "description": "game engine thingy with canvas",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && tsc -p ."
+  },
+  "devDependencies": {
+    "tsc": "^2.0.4",
+    "typescript": "^4.6.3"
+  }
+}
